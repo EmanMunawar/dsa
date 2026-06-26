@@ -20,7 +20,7 @@ public class SummaryRangesBrute {
             int first = arr[i];
             int last = first;
 
-            while (i + 1 < arr.length && arr[i + 1] == arr[i] + 1) { // // Check consecutive numbers
+            while (i + 1 < arr.length && arr[i + 1] == arr[i] + 1) {  // Check consecutive numbers
                 last = arr[i + 1];
                 i++;
 
