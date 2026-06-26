@@ -6,6 +6,10 @@ public class SummaryRangesBrute {
         int[] arr = {0,1,2,4,5,6,7,9,10};
         System.out.println("Array whose range is to find is:" + Arrays.toString(arr));
         System.out.println("Range of Array: " + summaryRanges(arr));
+        System.out.println("=== Time & Space Complexity ===");
+        System.out.println("Time Complexity = O(n*n)");
+        System.out.println("Space Complexity = O(n)");
+        System.out.println("===============================");
 
     }
     // Function to find summary ranges
